@@ -59,7 +59,7 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Software Engineering at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in Next.js, HTML, CSS, and I'm skilled in creating visually appealing.
+                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Software Engineering at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in Next.js, HTML, CSS, and I am skilled in creating visually appealing.
                         However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
