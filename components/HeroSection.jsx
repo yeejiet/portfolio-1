@@ -18,7 +18,7 @@ const HeroSection = () => {
                         <span className="text-white text-8xl">
                             Hello, I am {" "}
                             <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                                Shermaine
+                                Yee Jiet
                             </span>
                         </span>
                         <span className="text-7xl">
@@ -32,6 +32,9 @@ const HeroSection = () => {
                                         .typeString `<span style="color:#FF77FF">Web Developer</span>`
                                         .pauseFor(1500)
                                         .deleteAll()
+                                        .typeString `<span style="color:#E249A6">Mobile App Developer</span>`
+                                        .pauseFor(1500)
+                                        .deleteAll()
                                         .typeString `<span style="color:#9E7BFF">Software Engineer</span>`
                                         .pauseFor(1500)
                                         .deleteAll()
@@ -40,24 +43,15 @@ const HeroSection = () => {
                             ></TypeWritter>
                         </span>
                         <p className="text-sky-100 mt-8 text-base sm:text-lg md:text-xl mb-6">Slide down to know more about me!</p>
-                        <Link
-                            href="#projects" 
-                            className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
-                            <span className="text-xl text-white">Projects</span>
-                        </Link>
-                        <Link
-                            href="https://profile.indeed.com/document/view"
-                            className="px-6 inline-block py-3 rounded-full border border-solid-2 border-pink-500 hover:bg-pink-400">
-                            View my Resume
-                        </Link>
+                        
                     </h1>
                 </motion.div>
                 <div className="col-span-4 md:col-span-4 place-self-end mt-12 lg:mt-0 pt-0 lg:pt-12">
                     <div className="w-[400px] h-[400px] relative z-0">
                          <img
-                         src="/SunSet.jpg"
+                         src="/HeroSection.jpg"
                          alt="hero section"
-                         className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" width="500px" height="500px"
+                         className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" width={250} height={250}
                          >
                          </img>
                     </div>

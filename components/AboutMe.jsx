@@ -14,18 +14,10 @@ const TAB_DATA = [
                 <li>Cisco Networking</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>PHP</li>
                 <li>Java</li>
                 <li>Python</li>
-          </ul>
-        ),
-    },
-    {
-        title: "Experiences",
-        id: "experiences",
-        content: (
-          <ul className="list-disc pl-2">
-            <li>Cisco Networking Academy</li>
-            <li>Lvl99 Game Jam</li>
+                <li>Flutter</li>
           </ul>
         ),
     },
@@ -35,7 +27,7 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-2">
                 <li>Asia Pacific University</li>
-                <li>SMK Taman Connaught</li>
+                <li>Pin Hwa High School</li>
           </ul>
         ),
     }
@@ -55,12 +47,11 @@ const AboutMe = () => {
         <section className="text-white grid" id="aboutMe">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
                 <div>
-                    <img src="/AboutMe.jpg" alt="About Me" width={550} height={550} style={{ borderRadius: "25px" }}/>
+                    <img src="/AboutMe.jpg" alt="About Me" width={350} height={550} style={{ borderRadius: "25px" }}/>
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Software Engineering at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in Next.js, HTML, CSS, and I am skilled in creating visually appealing.
-                        However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg">I am presently engaged in the pursuit of a Software Engineering degree at APU. My expertise lies in front-end development, with a specialization in Bootstrap, HTML, and CSS. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
@@ -69,14 +60,6 @@ const AboutMe = () => {
                         >
                             
                             Skills
-                        </TabButton>
-
-                        <TabButton 
-                        selectTab={() => handleTabChange("experiences")}
-                        active= {tab === "experiences"}
-                        >
-                            {" "}
-                            Experiences{" "}
                         </TabButton>
 
                         <TabButton 

@@ -1,10 +1,8 @@
 import React from "react";
 import AboutMe from "@/components/AboutMe";
 import HeroSection from "@/components/HeroSection";
-import Project from "@/components/Project";
 import EmailSection from "@/components/EmailSection";
 import Footer from "@/components/Footer";
-//import AchievementsSection from "@/components/AchievementsSection";
 import Navbar from "@/components/NavBar";
 
 export default function Home(){
@@ -14,7 +12,6 @@ export default function Home(){
       <Navbar/>
       <HeroSection />
       <AboutMe />
-      <Project />
       <EmailSection />
     </main>
       <Footer />
